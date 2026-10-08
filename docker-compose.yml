@@ -1,0 +1,13 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:////data/geospatial.db
+    volumes:
+      - geospatial_data:/data
+    restart: unless-stopped
+
+volumes:
+  geospatial_data:

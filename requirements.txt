@@ -1,0 +1,9 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+python-multipart>=0.0.18,<1
+SQLAlchemy>=2.0,<3
+pydantic>=2,<3
+shapely>=2.0,<3
+pyproj>=3.6,<4
+pyshp>=2.3,<4
+defusedxml>=0.7,<1
